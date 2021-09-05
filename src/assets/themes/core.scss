@@ -1,0 +1,84 @@
+$--color-primary: #2a3098;
+$--color-text-primary: #1f2022;
+$--color-danger: #ff1232;
+$--color-warning: #ffaa00;
+$--color-success: #4ce2a7;
+$--color-info: #a7aebd;
+$--border-color-base: #d9dce3;
+$--color-text-regular: #1f2022;
+$--color-text-placeholder: #d9dce3;
+$--background-color-base: #fbfbfb;
+
+$--font-path: "~element-ui/lib/theme-chalk/fonts";
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/roboto-condensed/RobotoCondensed-Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/roboto-condensed/RobotoCondensed-LightItalic.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/roboto-condensed/RobotoCondensed-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/roboto-condensed/RobotoCondensed-Italic.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/roboto-condensed/RobotoCondensed-Bold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/roboto-condensed/RobotoCondensed-BoldItalic.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Bahnschrift";
+  src: url("../fonts/bahnschrift/bahnschrift.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ocrb";
+  src: url("../fonts/ocrbshrift/ocrb.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("../fonts/roboto/roboto-medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("../fonts/roboto/roboto-bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+@import "~element-ui/packages/theme-chalk/src/index";
